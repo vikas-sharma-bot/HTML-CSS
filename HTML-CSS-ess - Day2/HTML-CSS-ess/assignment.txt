@@ -1,0 +1,6 @@
+1.Create a webpage and put three images and one paragraph in it
+,One video and one audio.
+
+2.Create a table with student Details take any five columns of ur choice.
+
+3.Create a registeration form with name,email, password and username fields.
