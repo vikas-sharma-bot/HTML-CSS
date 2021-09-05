@@ -1,0 +1,249 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.navigation{
+    height: 80px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    width: 80%;
+    height: 80px;
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+}
+
+/* logo css  */
+
+.logo{
+    width: 15%;
+    height: 80px;
+    /* background-color: yellow; */
+    font-size: 20px;
+    font-family: 'Segoe UI';
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+/* navigation css  */
+.nav{
+    width: 35%;
+    height: 80px;
+    /* background-color: yellow; */
+}
+
+.nav-links{
+    display: flex;
+}
+
+.nav-link{
+    list-style-type:none;
+    height: 80px;
+    width: 25%;
+    /* background-color: red; */
+    text-align: center;
+    line-height: 80px;
+    font-family: 'segoe UI';
+    cursor: pointer;
+    color: white;
+}
+
+.nav-link:hover{
+    background-color: white;
+    color: black;
+}
+
+
+/* banner css  */
+
+.banner{
+    height: 700px;
+    width: 100%;
+    background-color:transparent;
+    background-image: url('./images/spider.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-items: center;
+}
+
+.banner-section{
+    height: 200px;
+    width: 40%;
+    /* background-color: white; */
+    margin-left: 20%;
+    font-size: 90px;
+    font-weight: bold;
+    font-family: 'segoe UI';
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(250, 4, 4);
+}
+
+.btn{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 18px;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 30px;
+    background-color: #d00b0b;
+    color: white;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: #ea0f0f;
+}
+
+/* films css  */
+
+.films{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    /* background-color: gray; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.films-container{
+    width: 80%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    /* background-color: red; */
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.title{
+    font-size: 30px;
+    font-family: 'segoe UI';
+}
+
+.film-card{
+    width: 22%;
+    height: 450px;
+    background-color: yellow;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 30px;
+}
+
+.film-detail{
+    height: 250px;
+    width: 100%;
+    background-color: rgba(0,0,0,0.8);
+    color:white; 
+    transition: .4s;
+    cursor: pointer;
+}
+
+.film-detail:hover{
+    height: 450px;
+}
+
+.film-title{
+    color: white;
+    font-family: 'segoe UI';
+    font-size: 15px;
+}
+
+.padd{
+    padding: 20px;
+}
+
+.card-1{
+    background-image: url('https://th.bing.com/th/id/OIP.BjZYdAeYBcMYlKLRRBc24gHaK9?w=187&h=277&c=7&r=0&o=5&pid=1.7');
+}
+
+.card-2{
+    background-image: url('https://th.bing.com/th/id/OIP.M73I1Mw0rSxA7f9PCdGJpAHaLH?w=182&h=273&c=7&r=0&o=5&pid=1.7');
+}
+
+.card-3{
+    background-image: url('https://th.bing.com/th/id/OIP.v6N35VdAngwuwd_vH4rYHwHaK-?w=184&h=273&c=7&r=0&o=5&pid=1.7');
+}
+
+.card-4{
+    background-image: url('https://th.bing.com/th/id/OIP.cvynK5XO9key3eG9Z6eQSQHaLI?w=187&h=282&c=7&r=0&o=5&pid=1.7');
+}
+
+.card-5{
+    background-image: url('https://th.bing.com/th/id/OIP.0-RnBBpUbSczHoZMT8SmxAHaK-?w=187&h=277&c=7&r=0&o=5&pid=1.7');
+}
+.card-6{
+    background-image: url('https://th.bing.com/th/id/OIP.4rb93LxQbW5nNyv44rytfAHaLH?w=187&h=280&c=7&r=0&o=5&pid=1.7');
+}
+
+.card-7{
+    background-image: url('https://th.bing.com/th/id/OIP.wWFpEhG3xriEglAjzjIOnQHaLH?w=187&h=280&c=7&r=0&o=5&pid=1.7');
+}
+
+.card-8{
+    background-image: url('https://th.bing.com/th/id/OIP.Ra3sQTST8jTR-kvG4_o3mAHaLH?w=187&h=280&c=7&r=0&o=5&pid=1.7');
+}
+
+.card-9{
+    background-image: url('https://th.bing.com/th/id/OIP.ssuRc38Mu3-VrflEywc4YAHaLH?w=120&h=180&c=7&r=0&o=5&pid=1.7');
+}
+
+.card-10{
+    background-image: url('https://th.bing.com/th/id/OIP.aCchXBFu_g7hrD_35DnbNQHaLG?w=187&h=280&c=7&r=0&o=5&pid=1.7');
+}
+
+.card-11{
+    background-image: url('https://th.bing.com/th/id/OIP.9Pv8YnMWe4-dV0f7eWvUEwHaKj?w=120&h=180&c=7&r=0&o=5&pid=1.7');
+}
+
+.card-12{
+    background-image: url('https://th.bing.com/th/id/OIP.93vNxis6QCC3LXWvUeFFrwHaLH?w=115&h=180&c=7&r=0&o=5&pid=1.7');
+}
+
+.card-13{
+    background-image: url('https://th.bing.com/th/id/OIP.R4PHrfAJDc8rEBvz9cQa-gHaOG?w=115&h=180&c=7&r=0&o=5&pid=1.7');
+}
+
+.card-14{
+    background-image: url('https://th.bing.com/th/id/OIP.NuiWXjuTiKap2WH_l4zfkgHaKp?w=115&h=180&c=7&r=0&o=5&pid=1.7');
+}
+
+.card-15{
+    background-image: url('https://th.bing.com/th/id/OIP.pdyG053QyI2_V0gRX_sfPgHaLH?w=115&h=180&c=7&r=0&o=5&pid=1.7');
+}
+
+.card-16{
+    background-image: url('https://th.bing.com/th/id/OIP.5ZcCcsKQlXbVP6pYer7MDQHaK5?w=115&h=180&c=7&r=0&o=5&pid=1.7');
+}
+
+.card-17{
+    background-image: url('https://th.bing.com/th/id/OIP.9oP_vAN9p1Eb1FGJmNND4QHaJ4?w=125&h=180&c=7&r=0&o=5&pid=1.7');
+}
+
+.card-18{
+    background-image: url('https://th.bing.com/th/id/OIP.lT6ArSbRkGy1wY2u59XvagHaOG?w=115&h=180&c=7&r=0&o=5&pid=1.7');
+}
+
+.card-19{
+    background-image: url('https://th.bing.com/th/id/OIP.qMPU81vs8zVlgK6TrrlSwgHaLb?w=187&h=288&c=7&r=0&o=5&pid=1.7');
+}
+
+
+
